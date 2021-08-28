@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clo="http://localhost:8084/cloudsigner-mobile/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <clo:GetUsuario>
+         <auth>
+            <id_cliente>1</id_cliente>
+            <id_empresa>1</id_empresa>
+            <firma_servicio>ec3c894fdec1a96f43e6d8293e356ec062b7f646</firma_servicio>
+         </auth>
+         <request>
+            <rut></rut>
+            <rutdv></rutdv>
+         </request>
+      </clo:GetUsuario>
+   </soapenv:Body>
+</soapenv:Envelope>
